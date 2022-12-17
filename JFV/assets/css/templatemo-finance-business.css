@@ -393,17 +393,17 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(/assets/images/puesto_solar/WhatsApp\ Image\ 2022-11-22\ at\ 17.01.12.jpeg); 
+	background-image: url(/JFV/assets/images/paneles/-placas-solares-para-autoconsumo-.jpg); 
 	
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(/assets/images/YPF_solar/306355531_10158996806442825_7501848416864483608_n.jpg );
+	background-image: url(/JFV/assets/images/paneles/panel1.webp );
     
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(/assets/images/paneles/solar-panels-g6298276c2_1920.jpg);
+	background-image: url(/JFV/assets/images/paneles/solar-panels-g6298276c2_1920.jpg);
 }
 
 .Modern-Slider .NextArrow{
@@ -563,12 +563,17 @@ ul.slick-dots {
 
 .service-item img {
 	width: 100%;
+	height: 250px;
 	overflow: hidden;
+	/*border-radius: 90%; */
+	object-fit: contain;
 }
 
 .service-item .down-content {
 	background-color: #f7f7f7;
 	padding: 30px;
+	
+	
 }
 
 .service-item .down-content h4 {
@@ -737,9 +742,10 @@ ul.slick-dots {
 	color: #a4c639;
 }
 .testimonial-item img {
-	max-width: 60px;
-	border-radius: 50%;
+	max-width: 160px;
+	border-radius: 10%;
 	margin: 25px auto 0px auto;
+	
 }
 
 
@@ -1061,7 +1067,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/page-heading-bg.jpg);
+	background-image: url(/JFV/assets/images/paneles/panel1.webp);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1087,6 +1093,9 @@ footer .contact-form button.filled-button:hover {
 
 
 /* team */
+
+
+
 
 .team {
 	background-color: #f7f7f7;
