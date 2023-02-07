@@ -33,15 +33,20 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #a4c639;
-	color: #fff;
-	font-size: 13px;
-	text-transform: uppercase;
-	font-weight: 700;
-	padding: 12px 30px;
-	border-radius: 30px;
-	display: inline-block;
-	transition: all 0.3s;
+	position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #a4c639;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.3s;
+	
 }
 
 a.filled-button:hover {
@@ -234,7 +239,7 @@ a.border-button:hover {
 /* Header Style */
 
 .navbar img{
-	width: 250px;
+	width: 350px;
 }
 
 header {
@@ -249,7 +254,7 @@ header {
     transition: all 0.3s ease-in-out 0s;
 }
 header .navbar {
-	padding: 20px 0px;
+	padding: 0px 0px;
 }
 .background-header .navbar {
 	padding: 0px 0px;
@@ -257,7 +262,7 @@ header .navbar {
 .background-header {
 	top: 0;
 	position: fixed;
-	background-color: #fff!important;
+	background-color: #a4c639!important;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
@@ -275,7 +280,8 @@ header .navbar {
 }
 .navbar .navbar-brand {
 	float: 	left;
-	margin-top: 10px;
+	margin-top: -20px;
+	margin-left: -00px;
 	outline: none;
 	
 }
@@ -304,7 +310,7 @@ header .navbar {
 }
 .navbar .navbar-nav a.nav-link {
 	text-transform: capitalize;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	color: #fff;
@@ -575,7 +581,7 @@ ul.slick-dots {
 	background-color: #f7f7f7;
 	padding: 30px;
 	height: 400px;
-	
+	position: relative;
 }
 
 .service-item .down-content h4 {
@@ -587,6 +593,7 @@ ul.slick-dots {
 
 .service-item .down-content p {
 	margin-bottom: 20px;
+	
 }
 
 
@@ -1319,8 +1326,8 @@ footer .contact-form button.filled-button:hover {
 @media (max-width: 992px) {
 	.navbar .navbar-brand {
 		position: absolute;
-		left: 30px;
-		top: 10px;
+		left: 00px;
+		top: 0px;
 	}
 	.navbar .navbar-brand {
 		width: auto;
@@ -1357,6 +1364,10 @@ footer .contact-form button.filled-button:hover {
 		border-bottom: none!important;
 	}
 }
+
+
+	
+
 
 
 .hogares{
