@@ -32,8 +32,8 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
 
-a.filled-button {
-	position: absolute;
+a.filled-button  {
+  position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
@@ -48,6 +48,7 @@ a.filled-button {
   transition: all 0.3s;
 	
 }
+
 
 a.filled-button:hover {
 	background-color: #fff;
@@ -666,6 +667,7 @@ ul.slick-dots {
 
 .more-info {
 	margin-top: 140px;
+	
 }
 
 .more-info .left-image img {
@@ -675,7 +677,8 @@ ul.slick-dots {
 
 .more-info .more-info-content {
 	background-color: #f7f7f7;
-	margin-top: 50px;
+	margin-top: 10px;
+	
 }
 
 .about-info .more-info-content {
@@ -685,10 +688,12 @@ ul.slick-dots {
 .about-info .right-content {
 	padding: 0px!important;
 	margin-right: 30px;
+	
 }
 
 .more-info .right-content {
 	padding: 45px 45px 45px 30px;
+	margin-bottom: 100px;
 }
 
 .more-info .right-content span {
@@ -703,7 +708,7 @@ ul.slick-dots {
 .more-info .right-content h2 {
 	font-size: 36px;
 	font-weight: 600;
-	margin-bottom: 35px;
+	margin-bottom: 5px;
 }
 
 .more-info .right-content em {
@@ -1116,12 +1121,20 @@ footer .contact-form button.filled-button:hover {
 
 .team-item img {
 	width: 100%;
+	height: auto;
+	min-height: 200px;
+	max-width: 200px;
+	max-height: 200px;
 	overflow: hidden;
-}
+	object-fit: cover;
+	display: block;
+	margin: 0 auto;
+  }
                                        
 .team-item .down-content {
 	background-color: #fff;
 	padding: 30px;
+	
 }
 
 .team-item .down-content h4 {
