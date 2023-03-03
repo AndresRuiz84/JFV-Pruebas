@@ -1122,9 +1122,9 @@ footer .contact-form button.filled-button:hover {
 .team-item img {
 	width: 100%;
 	height: auto;
-	min-height: 200px;
-	max-width: 200px;
-	max-height: 200px;
+	min-height: 300px;
+	max-width: 300px;
+	max-height: 300px;
 	overflow: hidden;
 	object-fit: cover;
 	display: block;
@@ -1133,7 +1133,7 @@ footer .contact-form button.filled-button:hover {
                                        
 .team-item .down-content {
 	background-color: #fff;
-	padding: 30px;
+	padding: 0px;
 	
 }
 
